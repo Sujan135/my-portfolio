@@ -24,13 +24,13 @@ const ContactSection = () => {
               </a>
               
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/sbanjara/" 
                 className="flex items-center text-portfolio-accent-light hover:text-white transition-colors duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Linkedin size={24} className="mr-3" />
-                <span>LinkedIn</span>
+                <span>LinkedIn Profile</span>
               </a>
               
               <a 
@@ -44,13 +44,13 @@ const ContactSection = () => {
               </a>
               
               <a 
-                href="#" 
+                href="https://github.com/Sujan135" 
                 className="flex items-center text-portfolio-accent-light hover:text-white transition-colors duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Github size={24} className="mr-3" />
-                <span>GitHub</span>
+                <span>GitHub Profile</span>
               </a>
               
               <a 

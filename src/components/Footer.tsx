@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp, Linkedin, Github } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -49,6 +48,25 @@ const Footer = () => {
               className="text-portfolio-accent-light hover:text-white transition-colors duration-300"
             >
               Contact
+            </a>
+          </div>
+          
+          <div className="flex space-x-4">
+            <a 
+              href="https://www.linkedin.com/in/sbanjara/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-portfolio-accent-light hover:text-white transition-colors duration-300"
+            >
+              <Linkedin size={24} />
+            </a>
+            <a 
+              href="https://github.com/Sujan135" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-portfolio-accent-light hover:text-white transition-colors duration-300"
+            >
+              <Github size={24} />
             </a>
           </div>
           
